@@ -1,0 +1,42 @@
+/* 
+#6E1260,#1D8F53,#DAAB42,#454271,#00011F,#C65D0B,#29CCFE,#050854
+*/
+
+h1 {
+    text-align: center;
+    margin-top: 5vh;
+}
+
+section {
+    text-align: center;
+    margin-top: 20vh;
+}
+
+div {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+div:hover {
+    box-shadow: 0px 5px 10px black;
+}
+
+div:nth-of-type(1) {
+    background: linear-gradient(45deg, #1D8F52 50%, #6E0960 50%)
+}
+
+div:nth-of-type(2) {
+    background: linear-gradient(45deg, #454271 50%, #DAAB42 50%)
+}
+
+div:nth-of-type(3) {
+    background: linear-gradient(45deg, #00011F 50%, #C65D0B 50%)
+}
+
+div:nth-of-type(4) {
+    background: linear-gradient(45deg, #050854 50%, #29CCFE 50%)
+}
